@@ -1,14 +1,14 @@
 cask "ampere" do
-  version "0.6.5"
+  version "0.6.7"
 
   on_arm do
-    url "https://github.com/app-dist/ampere-releases/releases/download/v#{version}/Ampere-0.6.5-arm64.dmg"
-    sha256 "c792de506875b43dd1ed381361a76817a2f0ad143f6b2dd32b7a7b3f0f0241b6"
+    url "https://github.com/app-dist/ampere-releases/releases/download/v#{version}/Ampere-0.6.7-arm64.dmg"
+    sha256 "8b10b62d51878f651c0d766f739fe7b2fb45e0333c39227329a86c7ea4b6da98"
   end
 
   on_intel do
-    url "https://github.com/app-dist/ampere-releases/releases/download/v#{version}/Ampere-0.6.5-x64.dmg"
-    sha256 "64bb83b1855294cce795be286b845538bc9ed95001cf600f4c6e1d8ace13e439"
+    url "https://github.com/app-dist/ampere-releases/releases/download/v#{version}/Ampere-0.6.7-x64.dmg"
+    sha256 "78e02df223fdfc515c578c8b36a53941eb658ffdd56a6537485a38e44933d0da"
   end
 
   name "Ampere"
