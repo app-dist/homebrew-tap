@@ -7,7 +7,7 @@ cask "ampere" do
   desc "Hi-Fi internet radio and sound synthesizer player"
   homepage "https://ampere.localcipher.dev"
 
-  depends_on macos: ">= :sonoma"
+  depends_on macos: :sonoma
 
   app "Ampere.app"
 end
