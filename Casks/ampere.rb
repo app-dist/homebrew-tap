@@ -1,6 +1,6 @@
 cask "ampere" do
-  version "0.7.1"
-  sha256 "49140f1cf395c8a204bcb82c2da788fc52a83653b276065f7456206c73405262"
+  version "0.7.2"
+  sha256 "1f75c75ad7271be7adcc10f5bd6e96b5ea8fc3cb21549a588b47a8311ea5e5e9"
 
   url "https://github.com/app-dist/ampere-releases/releases/download/mac-v#{version}/Ampere-#{version}.dmg"
   name "Ampere"
